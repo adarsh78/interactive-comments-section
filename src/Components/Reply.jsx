@@ -37,7 +37,7 @@ const Reply = ({
 
   return (
     <>
-      <div className="w-[340px] lg:w-[630px] m-auto bg-white rounded-md p-4 mb-5 lg:ml-[352px]">
+      <div className="w-[340px] lg:w-[630px] m-auto bg-white rounded-md p-4 mb-5 lg:ml-[439px]">
         <div className="lg:flex lg:gap-6">
           <div className="lg:flex hidden flex-col items-center justify-between  bg-[color:hsl(228,33%,97%)] py-2 px-3 h-[100px] rounded-md">
             <img
@@ -174,7 +174,7 @@ const Reply = ({
       </div>
 
       {isReplying && (
-        <div className="w-[340px] lg:w-[630px] m-auto bg-white rounded-md p-4 mb-5 lg:ml-[352px]">
+        <div className="w-[340px] lg:w-[630px] m-auto bg-white rounded-md p-4 mb-5 lg:ml-[439px]">
           <textarea
             type="text"
             placeholder="Add a reply..."
